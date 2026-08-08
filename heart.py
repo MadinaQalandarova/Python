@@ -5,7 +5,7 @@ import turtle
 # Ekran sozlamalari
 screen = turtle.Screen()
 screen.setup(width=800, height=800)
-screen.bgcolor("#050505")
+screen.bgcolor("#000000")
 screen.title("LOVE YOU Heart")
 screen.tracer(0)  # Tasvirni juda tez va silliq chizish uchun
 
