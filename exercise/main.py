@@ -123,25 +123,25 @@
 # berilgan sonlarning tub ekanligini aniqlash
 
 # # Son qabul qilib o'sha sonning tub ekanligini tekshirish
-# son = int(input("Sonni kiriting: "))
-# count = 0
+son = int(input("Sonni kiriting: "))
+count = 0
 
-# for i in range(1, son + 1):
-#     if son % i == 0:
-#         count += 1  
+for i in range(1, son + 1):
+    if son % i == 0:
+        count += 1  
         
-# if count == 2:
-#     print(f"bu {son} son tub son! ")
-# else:
-#     print(f"bu {son} son tub son emas!")
+if count == 2:
+    print(f"bu {son} son tub son! ")
+else:
+    print(f"bu {son} son tub son emas!")
 
-# num = [12, 34, 56, -3, -2, 76, -64]
+num = [12, 34, 56, -3, -2, 76, -64]
     
-# for i in num:
-#     if i >= 0:
-#         print(f"{i} - Musbat son")
-#     else:
-#         print(f"{i} - Manfiy son")
+for i in num:
+    if i >= 0:
+        print(f"{i} - Musbat son")
+    else:
+        print(f"{i} - Manfiy son")
 
 ls = [78, 115, 219, 113, 997, 381]
 
