@@ -135,13 +135,13 @@
 # else:
 #     print(f"bu {son} son tub son emas!")
 
-num = [12, 34, 56, -3, -2, 76, -64]
+# num = [12, 34, 56, -3, -2, 76, -64]
     
-for i in num:
-    if i >= 0:
-        print(f"{i} - Musbat son")
-    else:
-        print(f"{i} - Manfiy son")
+# for i in num:
+#     if i >= 0:
+#         print(f"{i} - Musbat son")
+#     else:
+#         print(f"{i} - Manfiy son")
 
 ls = [78, 115, 219, 113, 997, 381]
 
