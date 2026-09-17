@@ -36,3 +36,22 @@ print(sonlar[-1])
 mevalar = ["olma", "banan", "apelsin", "nok"]
 mevalar.insert(1, "uzum")
 print(mevalar)
+
+#Topshiriq 8
+
+
+cars = []
+mashina = input("Mashinalar nomini kiritng: ")
+cars.append(mashina)
+print(cars)
+
+#Topshiriq 9
+
+regions = ["Toshkent", "Samarqand", "Buxoro", "Farg'ona"]
+print(regions.remove("Buxoro"))
+
+#Topshiriq 10
+
+raqamlar = [41, 27, 3, 44, 50]
+raqamlar.sort()
+print(raqamlar)
