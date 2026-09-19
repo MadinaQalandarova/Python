@@ -1,5 +1,5 @@
 #Topshiriq 1
-"""
+
 ism = input()
 print(f"Salom, {ism}!")
 
@@ -76,10 +76,26 @@ numberList.reverse()
 print(f"Teskari tartibda: {numberList}")
 
 #Topshiriq 14 element mavjudligini tekshirish
-"""
+
 bozorlik = ["olma", "yog", "non", "sut"]
 mijoz = input("Nima olasz? ")
 if mijoz in bozorlik:
     print(f"Ha, bizda {mijoz} bor")
 else:
     print(f"Uzr, bizda {mijoz} yo'q")
+
+#Topshiriq 15 ro'yxat birlashtirish 
+
+number1 = [1, 2, 3]
+number2 = [4, 5, 6]
+jami = number1 + number2
+print(jami)
+
+#Topshiriq 16 element indeksini aniqlash
+
+ranglar = ["qizil", "yashil", "ko'k", "sariq"]
+rangi = input("Rangni kiriting: ")
+if rangi in ranglar:       
+    print(f"Bu rang indeks raqami: {ranglar.index(rangi)}")   
+else:
+    print("Bunday rang mavjud emas!")
