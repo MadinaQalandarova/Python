@@ -1,4 +1,4 @@
-#Topshiriq 1
+"""#Topshiriq 1
 
 ism = input()
 print(f"Salom, {ism}!")
@@ -11,7 +11,9 @@ print(f"Siz {2026-age} yoshdasz!")
 #Topshiriq 3
 
 p = float(input("Kvadratning tomonini kiriting: "))
-print(f"Kvadratning perimetri: {4 * p}")
+print(f"Kvadratning perimetri: {4 * p}")"""
 
 #Topshiriq 4
 
+fruits = input("Mevalarni kiriting: ").split(" ")
+print(f"Mevalar: {', '.join(fruits)}")
