@@ -12,3 +12,6 @@ print(f"Siz {2026-age} yoshdasz!")
 
 p = float(input("Kvadratning tomonini kiriting: "))
 print(f"Kvadratning perimetri: {4 * p}")
+
+#Topshiriq 4
+
