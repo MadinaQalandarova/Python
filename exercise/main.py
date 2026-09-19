@@ -1,5 +1,5 @@
 #Topshiriq 1
-
+"""
 ism = input()
 print(f"Salom, {ism}!")
 
@@ -55,3 +55,16 @@ print(regions.remove("Buxoro"))
 raqamlar = [41, 27, 3, 44, 50]
 raqamlar.sort()
 print(raqamlar)
+
+#Topshiriq 11
+
+a = [15, 25, 35, 45]
+b =  sum(a) / len(a)     #o'rta arifmetik qiymatni hisoblash
+print(b)
+"""
+#Topshiriq 12   
+
+big = input("Sonlarni kiriting: ").split(" ")
+c = max(big)
+d = min(big)
+print(f"Eng katta son: {c}, Eng kichik son: {d}")   
