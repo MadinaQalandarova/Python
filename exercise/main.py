@@ -61,10 +61,25 @@ print(raqamlar)
 a = [15, 25, 35, 45]
 b =  sum(a) / len(a)     #o'rta arifmetik qiymatni hisoblash
 print(b)
-"""
+
 #Topshiriq 12   
 
 big = input("Sonlarni kiriting: ").split(" ")
 c = max(big)
 d = min(big)
 print(f"Eng katta son: {c}, Eng kichik son: {d}")   
+
+#Topshiriq 13 teskari tartibda ro'yxat chiqarish
+
+numberList = input("Bir nechta son kiriting: ").split(" ")
+numberList.reverse()
+print(f"Teskari tartibda: {numberList}")
+
+#Topshiriq 14 element mavjudligini tekshirish
+"""
+bozorlik = ["olma", "yog", "non", "sut"]
+mijoz = input("Nima olasz? ")
+if mijoz in bozorlik:
+    print(f"Ha, bizda {mijoz} bor")
+else:
+    print(f"Uzr, bizda {mijoz} yo'q")
