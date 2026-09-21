@@ -35,7 +35,6 @@ print(mevalar)
 
 #Topshiriq 8 ro'yxatga yangi ro'yxat qo'shish
 
-
 cars = []
 mashina = input("Mashinalar nomini kiritng: ")
 cars.append(mashina)
@@ -89,7 +88,7 @@ print(jami)
 
 #Topshiriq 16 element indeksini aniqlash
 
-ranglar = ["qizil", "yashil", "ko'k", "sariq"]
+ranglar = ["qizil", "yashil", "ko'k", "sariq", "pushti"]
 rangi = input("Rangni kiriting: ")
 if rangi in ranglar:       
     print(f"Bu rang indeks raqami: {ranglar.index(rangi)}")   
