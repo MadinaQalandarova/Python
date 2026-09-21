@@ -1,6 +1,4 @@
-
-#Topshiriq 2 yilini hisoblash
-
+#yil hisoblash
 age = int(input("Tug'ilgan yilingizni kiriting: "))
 print(f"Siz {2026-age} yoshdasz!")
 
@@ -94,3 +92,4 @@ if rangi in ranglar:
     print(f"Bu rang indeks raqami: {ranglar.index(rangi)}")   
 else:
     print("Bunday rang mavjud emas!")
+
