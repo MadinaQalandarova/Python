@@ -1,7 +1,3 @@
-#Topshiriq 1 salomlashish
-
-ism = input()
-print(f"Salom, {ism}!")
 
 #Topshiriq 2 yilini hisoblash
 
