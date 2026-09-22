@@ -1,4 +1,4 @@
-#yil hisoblash
+"""#yil hisoblash
 age = int(input("Tug'ilgan yilingizni kiriting: "))
 print(f"Siz {2026-age} yoshdasz!")
 
@@ -84,7 +84,7 @@ number2 = [4, 5, 6]
 jami = number1 + number2
 print(jami)
 
-#Topshiriq, 16 element indeksini aniqlash
+#Topshiriq,  element indeksini aniqlash
 
 ranglar = ["qizil", "yashil", "ko'k", "sariq", "pushti"]
 rangi = input("Rangni kiriting: ")
@@ -92,4 +92,12 @@ if rangi in ranglar:
     print(f"Bu rang indeks raqami: {ranglar.index(rangi)}")   
 else:
     print("Bunday rang mavjud emas!")
+"""
+#topshiriq tuple
+mevalar = ("olma", "banan", "olma", "anor", "olma")
 
+olma_soni = mevalar.count("olma")
+print(f"Olma soni: {olma_soni}")
+
+banan_indeksi = mevalar.index("banan")
+print(f"Banan indeksi: {banan_indeksi}") 
