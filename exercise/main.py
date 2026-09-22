@@ -101,3 +101,8 @@ print(f"Olma soni: {olma_soni}")
 
 banan_indeksi = mevalar.index("banan")
 print(f"Banan indeksi: {banan_indeksi}") 
+
+colors =("pushti", "yashil", "moviy", "sariq", "moviy")
+
+colorIndex = colors.index("moviy")
+print(f"Moviy rangning indeksi: {colorIndex}")
