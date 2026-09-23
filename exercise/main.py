@@ -108,10 +108,8 @@ colorIndex = colors.index("moviy")
 print(f"Moviy rangning indeksi: {colorIndex}")"""
 
 
-lst = (1, 2, 3, 4, 5, 6, 7, 8)
 son = int(input("Sonni kiriting: "))
-if son in lst:
-    a = son ** 2
-    print(f"{son} ning kvadrati: {a}")
-else:
-    print("Boshqa son kiriting!")
+a = son ** 2
+
+print(f"{son} ning kvadrati: {a}")
+
