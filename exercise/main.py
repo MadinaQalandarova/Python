@@ -92,7 +92,7 @@ if rangi in ranglar:
     print(f"Bu rang indeks raqami: {ranglar.index(rangi)}")   
 else:
     print("Bunday rang mavjud emas!")
-
+"""
 #topshiriq tuple
 mevalar = ("olma", "banan", "olma", "anor", "olma")
 
@@ -105,7 +105,7 @@ print(f"Banan indeksi: {banan_indeksi}")
 colors =("pushti", "yashil", "moviy", "sariq", "moviy")
 
 colorIndex = colors.index("moviy")
-print(f"Moviy rangning indeksi: {colorIndex}")"""
+print(f"Moviy rangning indeksi: {colorIndex}")
 
 # Topshiriq mustaqil. Sonning kvadrati va ildizini hisoblash
 
