@@ -107,9 +107,13 @@ colors =("pushti", "yashil", "moviy", "sariq", "moviy")
 colorIndex = colors.index("moviy")
 print(f"Moviy rangning indeksi: {colorIndex}")"""
 
-
+#sonning kvadrati va ildizini hisoblash
 son = int(input("Sonni kiriting: "))
 a = son ** 2
 
 print(f"{son} ning kvadrati: {a}")
 
+raqam = int(input("Sonni kiriting: "))
+
+a = raqam ** 0.5
+print(f"{raqam} ning kvadrat ildizi: {a}")
