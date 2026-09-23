@@ -107,7 +107,8 @@ colors =("pushti", "yashil", "moviy", "sariq", "moviy")
 colorIndex = colors.index("moviy")
 print(f"Moviy rangning indeksi: {colorIndex}")"""
 
-#sonning kvadrati va ildizini hisoblash
+# Topshiriq mustaqil. Sonning kvadrati va ildizini hisoblash
+
 son = int(input("Sonni kiriting: "))
 a = son ** 2
 
