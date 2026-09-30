@@ -1,125 +1,125 @@
-"""#yil hisoblash
-age = int(input("Tug'ilgan yilingizni kiriting: "))
-print(f"Siz {2026-age} yoshdasz!")
+# #yil hisoblash
+# age = int(input("Tug'ilgan yilingizni kiriting: "))
+# print(f"Siz {2026-age} yoshdasz!")
 
-#Topshiriq, 3 perimetrni hisoblash
+# #Topshiriq, 3 perimetrni hisoblash
 
-p = float(input("Kvadratning tomonini kiriting: "))
-print(f"Kvadratning perimetri: {4 * p}")
+# p = float(input("Kvadratning tomonini kiriting: "))
+# print(f"Kvadratning perimetri: {4 * p}")
 
-#Topshiriq, 4 qoshilgan mevalar ro'yxatini joriy ro'yxatga chiqarish
+# #Topshiriq, 4 qoshilgan mevalar ro'yxatini joriy ro'yxatga chiqarish
 
-fruits = input("Mevalarni kiriting: ").split(" ")
-print(f"Mevalar: {', '.join(fruits)}")
-
-
-#Topshiriq, 5 son kubi va kvadratini hisoblash
-
-number = int(input("Sevimli soningni yoz: "))
-print(f"Sevimli soningni kvadrati: {number ** 2}")
-print(f"Sevimli soningni kubi: {number ** 3}")
-
-#Topshiriq, 6 raqam indeksini chiqarish
-
-sonlar = [10, 20, 30, 40, 50]
-print(sonlar[0])
-print(sonlar[-1])
-
-#Topshiriq, 7 nomi kiritilgan mevalar ro'yxatiga yangi meva qo'shish
-
-mevalar = ["olma", "banan", "apelsin", "nok"]
-mevalar.insert(1, "uzum")
-print(mevalar)
-
-#Topshiriq, 8 ro'yxatga yangi ro'yxat qo'shish
-
-cars = []
-mashina = input("Mashinalar nomini kiritng: ")
-cars.append(mashina)
-print(cars)
-
-#Topshiriq, 9 olib tashlash
-
-regions = ["Toshkent", "Samarqand", "Buxoro", "Farg'ona"]
-print(regions.remove("Buxoro"))
-
-#Topshiriq, 10 tartiblangan ro'yxatni chiqarish
-
-raqamlar = [41, 27, 3, 44, 50]
-raqamlar.sort()
-print(raqamlar)
-
-#Topshiriq,  11 o'rta arifmetik qiymatni hisoblash
-
-a = [15, 25, 35, 45]
-b =  sum(a) / len(a)     
-print(b)
-
-#Topshiriq, 12   max va min qiymatni chiqarish
-
-big = input("Sonlarni kiriting: ").split(" ")
-c = max(big)
-d = min(big)
-print(f"Eng katta son: {c}, Eng kichik son: {d}")   
-
-#Topshiriq,   13 teskari tartibda ro'yxat chiqarish
-
-numberList = input("Bir nechta son kiriting: ").split(" ")
-numberList.reverse()
-print(f"Teskari tartibda: {numberList}")
-
-#Topshiriq, 14 element mavjudligini tekshirish
-
-bozorlik = ["olma", "yog", "non", "sut"]
-mijoz = input("Nima olasz? ")
-if mijoz in bozorlik:
-    print(f"Ha, bizda {mijoz} bor")
-else:
-    print(f"Uzr, bizda {mijoz} yo'q")
-
-#Topshiriq, 15 ro'yxat birlashtirish 
-
-number1 = [1, 2, 3]
-number2 = [4, 5, 6]
-jami = number1 + number2
-print(jami)
-
-#Topshiriq,  element indeksini aniqlash
-
-ranglar = ["qizil", "yashil", "ko'k", "sariq", "pushti"]
-rangi = input("Rangni kiriting: ")
-if rangi in ranglar:       
-    print(f"Bu rang indeks raqami: {ranglar.index(rangi)}")   
-else:
-    print("Bunday rang mavjud emas!")
-
-#topshiriq tuple
-mevalar = ("olma", "banan", "olma", "anor", "olma")
-
-olma_soni = mevalar.count("olma")
-print(f"Olma soni: {olma_soni}")
-
-banan_indeksi = mevalar.index("banan")
-print(f"Banan indeksi: {banan_indeksi}") 
-
-colors =("pushti", "yashil", "moviy", "sariq", "moviy")
-
-colorIndex = colors.index("moviy")
-print(f"Moviy rangning indeksi: {colorIndex}")
+# fruits = input("Mevalarni kiriting: ").split(" ")
+# print(f"Mevalar: {', '.join(fruits)}")
 
 
-# Topshiriq mustaqil. Sonning kvadrati va ildizini hisoblash
+# #Topshiriq, 5 son kubi va kvadratini hisoblash
 
-son = int(input("Sonni kiriting: "))
-a = son ** 2
+# number = int(input("Sevimli soningni yoz: "))
+# print(f"Sevimli soningni kvadrati: {number ** 2}")
+# print(f"Sevimli soningni kubi: {number ** 3}")
 
-print(f"{son} ning kvadrati: {a}")
+# #Topshiriq, 6 raqam indeksini chiqarish
 
-raqam = int(input("Sonni kiriting: "))
+# sonlar = [10, 20, 30, 40, 50]
+# print(sonlar[0])
+# print(sonlar[-1])
 
-a = raqam ** 0.5
-print(f"{raqam} ning kvadrat ildizi: {a}")
-"""
+# #Topshiriq, 7 nomi kiritilgan mevalar ro'yxatiga yangi meva qo'shish
+
+# mevalar = ["olma", "banan", "apelsin", "nok"]
+# mevalar.insert(1, "uzum")
+# print(mevalar)
+
+# #Topshiriq, 8 ro'yxatga yangi ro'yxat qo'shish
+
+# cars = []
+# mashina = input("Mashinalar nomini kiritng: ")
+# cars.append(mashina)
+# print(cars)
+
+# #Topshiriq, 9 olib tashlash
+
+# regions = ["Toshkent", "Samarqand", "Buxoro", "Farg'ona"]
+# print(regions.remove("Buxoro"))
+
+# #Topshiriq, 10 tartiblangan ro'yxatni chiqarish
+
+# raqamlar = [41, 27, 3, 44, 50]
+# raqamlar.sort()
+# print(raqamlar)
+
+# #Topshiriq,  11 o'rta arifmetik qiymatni hisoblash
+
+# a = [15, 25, 35, 45]
+# b =  sum(a) / len(a)     
+# print(b)
+
+# #Topshiriq, 12   max va min qiymatni chiqarish
+
+# big = input("Sonlarni kiriting: ").split(" ")
+# c = max(big)
+# d = min(big)
+# print(f"Eng katta son: {c}, Eng kichik son: {d}")   
+
+# #Topshiriq,   13 teskari tartibda ro'yxat chiqarish
+
+# numberList = input("Bir nechta son kiriting: ").split(" ")
+# numberList.reverse()
+# print(f"Teskari tartibda: {numberList}")
+
+# #Topshiriq, 14 element mavjudligini tekshirish
+
+# bozorlik = ["olma", "yog", "non", "sut"]
+# mijoz = input("Nima olasz? ")
+# if mijoz in bozorlik:
+#     print(f"Ha, bizda {mijoz} bor")
+# else:
+#     print(f"Uzr, bizda {mijoz} yo'q")
+
+# #Topshiriq, 15 ro'yxat birlashtirish 
+
+# number1 = [1, 2, 3]
+# number2 = [4, 5, 6]
+# jami = number1 + number2
+# print(jami)
+
+# #Topshiriq,  element indeksini aniqlash
+
+# ranglar = ["qizil", "yashil", "ko'k", "sariq", "pushti"]
+# rangi = input("Rangni kiriting: ")
+# if rangi in ranglar:       
+#     print(f"Bu rang indeks raqami: {ranglar.index(rangi)}")   
+# else:
+#     print("Bunday rang mavjud emas!")
+
+# #topshiriq tuple
+# mevalar = ("olma", "banan", "olma", "anor", "olma")
+
+# olma_soni = mevalar.count("olma")
+# print(f"Olma soni: {olma_soni}")
+
+# banan_indeksi = mevalar.index("banan")
+# print(f"Banan indeksi: {banan_indeksi}") 
+
+# colors =("pushti", "yashil", "moviy", "sariq", "moviy")
+
+# colorIndex = colors.index("moviy")
+# print(f"Moviy rangning indeksi: {colorIndex}")
+
+
+# # Topshiriq mustaqil. Sonning kvadrati va ildizini hisoblash
+
+# son = int(input("Sonni kiriting: "))
+# a = son ** 2
+
+# print(f"{son} ning kvadrati: {a}")
+
+# raqam = int(input("Sonni kiriting: "))
+
+# a = raqam ** 0.5
+# print(f"{raqam} ning kvadrat ildizi: {a}")
+
 
 # ls = [78, 115, 219, 113, 997, 381]
 
@@ -144,9 +144,7 @@ for i in range(1, son + 1):
     if son % i == 0:
         count += 1  
         
-
 if count == 2:
-    print(f"{son} tub son ")
+    print(f"{son} tub son!")
 else:
-    print(f"{son} tub son emas")
-
+    print(f"{son} tub son emas!")
