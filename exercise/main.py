@@ -136,7 +136,7 @@ for a in ls:
     else:
         print(f"{a} tub son emas")
 
-
+# Son qabul qilib o'sha sonning tub ekanligini tekshirish
 son = int(input("Sonni kiriting: "))
 count = 0
 
