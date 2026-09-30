@@ -120,7 +120,7 @@
 # a = raqam ** 0.5
 # print(f"{raqam} ning kvadrat ildizi: {a}")
 
-
+# berilgan sonlarning tub ekanligini aniqlash
 ls = [78, 115, 219, 113, 997, 381]
 
 for a in ls:
