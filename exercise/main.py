@@ -145,13 +145,9 @@ for i in range(1, son + 1):
         count += 1  
         
 if count == 2:
-<<<<<<< HEAD
-    print(f"{son} tub son!")
-else:
-    print(f"{son} tub son emas!")
-=======
     print(f"bu {son} son tub son! ")
 else:
     print(f"bu {son} son tub son emas")
 
->>>>>>> cd5493da8c8645414e7fc9527ffe670c8a681647
+
+    
