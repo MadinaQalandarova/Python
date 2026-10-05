@@ -121,18 +121,31 @@ a = raqam ** 0.5
 print(f"{raqam} ning kvadrat ildizi: {a}")
 """
 
-ls = [78, 115, 219, 113, 997, 381]
+# ls = [78, 115, 219, 113, 997, 381]
 
-for a in ls:
-    count = 0
+# for a in ls:
+#     count = 0
 
-    for i in range(1, a + 1):
-        if a % i == 0:
-            count =+ 1
+#     for i in range(1, a + 1):
+#         if a % i == 0:
+#             count += 1
 
-    if count == 2:
-        print("Tub son")
+#     if count == 2:
+#         print(f"{a} tub son ")
                 
-    else:
-        print("Tub son emas")
+#     else:
+#         print(f"{a} tub son emas")
 
+
+son = int(input("Sonni kiriting: "))
+count = 0
+
+for i in range(1, son + 1):
+    if son % i == 0:
+        count += 1  
+        
+
+if count == 2:
+    print(f"{son} tub son ")
+else:
+    print(f"{son} tub son emas")
