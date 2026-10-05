@@ -149,3 +149,4 @@ if count == 2:
     print(f"{son} tub son ")
 else:
     print(f"{son} tub son emas")
+
