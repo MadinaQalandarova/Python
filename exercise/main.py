@@ -148,5 +148,5 @@ for i in range(1, son + 1):
 if count == 2:
     print(f"{son} tub son ")
 else:
-    print(f"{son} tub son emas")
+    print(f"bu {son} son tub son emas")
 
