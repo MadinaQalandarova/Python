@@ -121,20 +121,20 @@
 # print(f"{raqam} ning kvadrat ildizi: {a}")
 
 # berilgan sonlarning tub ekanligini aniqlash
-# ls = [78, 115, 219, 113, 997, 381]
+ls = [78, 115, 219, 113, 997, 381]
 
-# for a in ls:
-#     count = 0
+for a in ls:
+    count = 0
 
-#     for i in range(1, a + 1):
-#         if a % i == 0:
-#             count += 1
+    for i in range(1, a + 1):
+        if a % i == 0:
+            count += 1
 
-#     if count == 2:
-#         print(f"{a} tub son ")
+    if count == 2:
+        print(f"{a} tub son ")
                 
-#     else:
-#         print(f"{a} tub son emas")
+    else:
+        print(f"{a} tub son emas")
 
 # # Son qabul qilib o'sha sonning tub ekanligini tekshirish
 # son = int(input("Sonni kiriting: "))
@@ -149,10 +149,10 @@
 # else:
 #     print(f"bu {son} son tub son emas!")
 
-num = [12, 34, 56, -3, -2, 76, -64]
+# num = [12, 34, 56, -3, -2, 76, -64]
     
-for i in num:
-    if i >= 0:
-        print(f"{i} - Musbat son")
-    else:
-        print(f"{i} - Manfiy son")
+# for i in num:
+#     if i >= 0:
+#         print(f"{i} - Musbat son")
+#     else:
+#         print(f"{i} - Manfiy son")
