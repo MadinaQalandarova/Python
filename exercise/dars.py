@@ -22,15 +22,15 @@
 
 # Elementar Dasturlash
 
-guruh = str(input())
-ism = str(input())
+# guruh = str(input())
+# ism = str(input())
 
-if guruh == "01-26":
-    if ism == "Guli":
-        print("Topildi 1")
-elif guruh == "02-26":
-    if ism == "Madina":
-        print("Topildi 2")
-elif guruh == "03-26":
-    if ism == "Laylo":
-        print("Topildi 3")
+# if guruh == "01-26":
+#     if ism == "Guli":
+#         print("Topildi 1")
+# elif guruh == "02-26":
+#     if ism == "Madina":
+#         print("Topildi 2")
+# elif guruh == "03-26":
+#     if ism == "Laylo":
+#         print("Topildi 3")
