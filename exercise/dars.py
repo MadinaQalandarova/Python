@@ -21,6 +21,7 @@
 # print(int(u))
 
 # Elementar Dasturlash
+# 13.10.2026 oraliq nazorat 1 
 
 # guruh = str(input())
 # ism = str(input())
