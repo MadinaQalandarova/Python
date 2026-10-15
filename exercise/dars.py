@@ -35,3 +35,8 @@
 # elif guruh == "03-26":
 #     if ism == "Laylo":
 #         print("Topildi 3")
+
+q = 8
+a = 40
+u = a / q
+print(int(u))
