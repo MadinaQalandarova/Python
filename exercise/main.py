@@ -157,3 +157,6 @@
                 
 #     else:
 #         print(f"{a} tub son emas")
+
+for i in range(1, 11):
+  print(i)
